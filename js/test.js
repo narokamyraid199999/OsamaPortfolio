@@ -189,12 +189,7 @@ function arrPrinter(arr=['test']){
     });
 }
 
-const tamer = {
-    name:'salem',
-    age:24,
-    tall:179,
-    getInfo: function (){
-        return `user name is ${this.name}, age is ${this.age}, tall is ${this.tall}`
-    }
-}
 
+export function join(num1, num2){
+    return num1+num2
+}

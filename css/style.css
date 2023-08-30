@@ -276,6 +276,12 @@ nav{
 ------------------------------------------------------
 */
 
+.service-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .service-container{
     padding: 3.5rem var(--padding);
 }
@@ -445,6 +451,22 @@ footer h2 span, .copyricht{
 */
 
 @media screen and (max-width:557px){
+    footer{
+        justify-content: center;
+        align-items: center;
+    }
+    .about-text{
+        text-align: center;
+    }
+    .about-me-container{
+        justify-content: center;
+    }
+    .skills-container{
+        justify-content: center;
+    }
+    .service-root{
+        justify-content: center;
+    }
     :root{
         --padding:1.5rem;
     }

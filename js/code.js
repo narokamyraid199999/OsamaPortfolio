@@ -1,5 +1,10 @@
 
 
+import {join} from './test.js';
+
+console.log(join(1,2))
+
+
 // this function will change the h3 text to random text in array
 
 const changeH3 = () =>{
@@ -24,7 +29,6 @@ const changeH3 = () =>{
     });
 }
 
-
 // change the main image to random image
 
 const changeMainImage = () =>{
@@ -32,7 +36,6 @@ const changeMainImage = () =>{
     let imgSecList = ['logo\\programmer-slide.png','logo\\programmer2.png','logo\\programmer3.png','logo\\programmer5.png','logo\\programmer6.png','logo\\programmer7.png','logo\\programmer8.png']
     img.src = imgSecList[Math.floor(Math.random()*imgSecList.length)]
 }
-
 
 
 const img = document.getElementById('main-image');
